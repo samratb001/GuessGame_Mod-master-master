@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350sp"
+    android:layout_height="520sp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_back"
+    >
+    <!--<Button-->
+        <!--android:id="@+id/cross_btn"-->
+        <!--android:layout_marginTop="7sp"-->
+        <!--android:layout_width="40sp"-->
+        <!--android:layout_marginRight="5sp"-->
+        <!--android:layout_height="40sp"-->
+        <!--android:text="X"-->
+        <!--android:background="@drawable/cross"-->
+        <!--android:textSize="20sp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="end"-->
+        <!--/>-->
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12sp"
+        android:background="@drawable/batch_logo"
+        />
+    <TextView
+        android:id="@+id/dialog_name"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:textColorHint="#030303"
+        android:paddingLeft="5sp"
+        android:layout_marginTop="25sp"
+        android:fontFamily="@font/funkyfont"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/dialog_score"
+        android:paddingLeft="5sp"
+        android:textColorHint="#131212"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:fontFamily="@font/funkyfont"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2sp"
+        android:fontFamily="@font/fancyfont"
+        android:text="Completed!!"
+        android:textAlignment="center"
+        android:textColor="#DD08FF08"
+        android:textSize="50sp" />
+    <ImageButton
+        android:id="@+id/back_home"
+        android:layout_marginTop="2sp"
+        android:layout_width="100sp"
+        android:onClick="backhome"
+        android:background="@drawable/home_btn_back"
+        android:layout_height="100sp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

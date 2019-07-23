@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:background="@drawable/recycler_stryle"
+    android:orientation="vertical"
+    android:layout_marginTop="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+        <LinearLayout
+            android:id="@+id/details3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3sp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/userid"
+                android:fontFamily="@font/funkyfont"
+                android:paddingLeft="10sp"
+                android:textSize="30sp"
+                android:textColor="#F7F4F4"
+                android:layout_width="300dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/score"
+                android:layout_gravity="right"
+                android:paddingLeft="5sp"
+                android:fontFamily="@font/funkyfont"
+                android:textColor="#F7F4F4"
+                android:textSize="30sp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+        
+</LinearLayout>
